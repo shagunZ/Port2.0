@@ -1,0 +1,81 @@
+
+[
+  {
+      "link": "https://synopsisai.netlify.app/",
+      "img": "./assets/img/gptx.png",
+      "youtube":"https://www.youtube.com/watch?v=0hrAFKKQLOY",
+      "github":"https://github.com/shagunZ/SynopsisAI",
+      "title": "SynopsisAI",
+      "description": "SynopsisAI streamline your reading experience and can transform lengthy articles into concise and easily readable summaries. The generated summaries are designed to be clear, concise, and highly readable texts and are facilitated by connecting to relevant APIs that processes the summarization. ",
+      "tech": ["Reactjs ", "Tailwind "]
+    },
+       
+        {
+          "youtube": "https://www.youtube.com/watch?v=9xPglGIqDPI",
+          "img":"blogify.png",
+          "link": "https://www.youtube.com/watch?v=9xPglGIqDPI",
+          "github": "https://github.com/shagunZ/BlogifyMERN",
+          "title": "Blogify",
+          "description": "A MERN stack app that provides authentication for secure access and includes features like liking and viewing personal and all blogs. With a user-friendly interface and rich text editing capabilities, Blogify makes blogging a seamless experience for users of all levels. ",
+          "tech": ["MongoDB", "Expressjs", "React", "Nodejs "]
+        },
+        {
+          "link": "https://scrollgate.netlify.app/",
+          "img":"scrollgate.png",
+          "github": "https://github.com/shagunZ/ScrollGate",
+          "youtube":"https://www.youtube.com/watch?v=u0RLH4vKBrA",
+          "title": "Scroll Gate",
+          "description": "Scroll Gate combines the concept of infinite scrolling, external API integration, React development, and Firebase Authentication to create a dynamic and engaging application that keeps users immersed in a continuous stream of content while maintaining secure user authentication. ",
+          "tech": ["Reactjs ", "Firebase ", "ReactBootstrap"]
+        },
+      
+        {
+          "github": "https://github.com/shagunZ/YelpCamp",
+          "img":"yelp.png",
+          "link": "https://www.youtube.com/watch?v=UkbCn1jiCv4",
+          "youtube":"https://www.youtube.com/watch?v=UkbCn1jiCv4",
+          "title": "Yelp Camp",
+          "description": "YelpCamp is a Full Stack app for a campground sharing and reviewing platform. Users can create an account, log in, and perform various actions within the application, such as creating , adding comments and reviews , editing or deleting , and browsing through different campground listings.",
+          "tech": ["Expressjs ", "Nodejs ", "Bycrypt ", "JavaScript"]
+        },
+        {
+          "link": "https://github.com/shagunZ/ToDoAppCrud",
+          "img":"task.png",
+          "youtube":"https://www.youtube.com/watch?v=hRdPMSi_7ZY",
+          "github":"https://github.com/shagunZ/ToDoAppCrud",
+          "title": "Task Manager",
+          "description": "Task Manager is a MERN stack application that excels in providing efficient Create, Read, Update, and Delete (CRUD) operations. It is a no-login task recording app utilizing various features of React, such as Event Listeners, State Management, Conditional Rendering, React Hooks, seamless user experience without experiencing page reloads.  ",
+          "tech": ["Reactjs ", "Expressjs ", "Nodejs ", "MongoDB"]
+        },
+
+        {
+          "link": "https://friendlychat-79704.firebaseapp.com/",
+          "img":"friendlychat.png",
+          "youtube":"https://github.com/shagunZ/FriendlyChatfirebase",
+          "github":"https://github.com/shagunZ/FriendlyChatfirebase",
+          "title": "Friendly Chat",
+          "description": "This is a chat application built using Firebase. It allows users to communicate with each other in real-time using Firebase's real-time database and authentication features. The chat application utilizes Firebase's real-time database, enabling instant message delivery between users.",
+          "tech": ["Firebase"]
+        },
+ 
+        {
+          "link": "https://moviey.netlify.app",
+          "img":"movie.png",
+          "youtube":"https://www.youtube.com/watch?v=hRdPMSi_7ZY",
+          "github":"https://github.com/shagunZ/movieapp-react",
+          "title": "MovieApp",
+          "description": "The MovieApp is built with React, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore. ",
+          "tech": ["Reactjs", "Api", "JavaScript"]
+        },
+ 
+        {
+          "link": "https://github.com/shagunZ/Bookstore-shoppingCart",
+          "img":"bookcart.png",
+          "github": "https://github.com/shagunZ/Bookstore-shoppingCart",
+          "youtube":"https://www.youtube.com/watch?v=nf5j6xxLNW0",
+          "title": "Book Cart",
+          "description": "Book Cart app offers users a convenient way to manage their book purchases by adding and deleting books. The app includes a feature that calculates the bill based on the books added to the cart. Each time a book is added or deleted, the app recalculates the total bill, taking into account the prices of the books in the cart. ",
+          "tech": ["Reactjs", "JavaScript"]
+        }
+      ]
+
