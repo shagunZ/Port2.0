@@ -21,7 +21,11 @@ export default function Projects() {
 
         <main className="px-2 flex flex-col gap-14 md:flex-row lg:flex-row">
           <div className="flex flex-col gap-2 lg:w-1/3">
-            <div className=" rounded-lg flex items-center justify-center mb-2 h-56 hover:cursor-pointer">
+            <div className=" rounded-lg flex items-center justify-center mb-2 h-56 hover:cursor-pointer" 
+             style={{
+              transitionTimingFunction:"ease-in-out",
+              transitionDuration:"2s"
+            }}>
               <img
                 className="rounded-md w-3/4 h-40"
                 src={Synopsis}
@@ -47,10 +51,9 @@ export default function Projects() {
                 href="https://synopsisai.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
-                className="text-[#b67ef2] font-bold flex items-center text-sm border-b border-[#b67ef2]"
+                className="text-[#b67ef2] font-bold flex items-center text-xl"
               >
-                Link{" "}
-                <img src={NorthEastArrow} alt="arrow icon" className="w-7" />
+                {" "}<i className="fa-solid fa-link w-7"></i>
               </a>
               <a
                 href="https://byyash.vercel.app/"
@@ -92,10 +95,9 @@ export default function Projects() {
                 href="https://www.youtube.com/watch?v=UkbCn1jiCv4"
                 target="_blank"
                 rel="noreferrer"
-                className="text-[#b67ef2] font-bold flex items-center text-sm border-b border-[#b67ef2]"
+                className="text-[#b67ef2] font-bold flex items-center text-xl"
               >
-                Link{" "}
-                <img src={NorthEastArrow} alt="arrow icon" className="w-7" />
+                {" "}<i className="fa-solid fa-link w-7"></i>
               </a>
               <a
                 href="https://www.youtube.com/watch?v=UkbCn1jiCv4"
@@ -136,10 +138,9 @@ export default function Projects() {
                 href="https://scrollgate.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
-                className="text-[#b67ef2] font-bold flex items-center text-sm border-b border-[#b67ef2]"
+                className="text-[#b67ef2] font-bold flex items-center text-xl"
               >
-                Link{" "}
-                <img src={NorthEastArrow} alt="arrow icon" className="w-7" />
+                {" "}<i className="fa-solid fa-link w-7"></i>
               </a>
               <a
                 href="https://www.youtube.com/watch?v=u0RLH4vKBrA"
@@ -186,10 +187,9 @@ export default function Projects() {
                 href="https://www.youtube.com/watch?v=9xPglGIqDPI"
                 target="_blank"
                 rel="noreferrer"
-                className="text-[#b67ef2] font-bold flex items-center text-sm border-b border-[#b67ef2]"
+                className="text-[#b67ef2] font-bold flex items-center text-xl"
               >
-                Link{" "}
-                <img src={NorthEastArrow} alt="arrow icon" className="w-7" />
+                {" "}<i className="fa-solid fa-link w-7"></i>
               </a>
               <a
                 href="https://www.youtube.com/watch?v=9xPglGIqDPI"
@@ -231,10 +231,9 @@ export default function Projects() {
                 href="https://www.youtube.com/watch?v=hRdPMSi_7ZY"
                 target="_blank"
                 rel="noreferrer"
-                className="text-[#b67ef2] font-bold flex items-center text-sm border-b border-[#b67ef2]"
+                className="text-[#b67ef2] font-bold flex items-center text-xl"
               >
-                Link{" "}
-                <img src={NorthEastArrow} alt="arrow icon" className="w-7" />
+                  {" "}<i className="fa-solid fa-link w-7"></i>
               </a>
               <a
                 href="https://www.youtube.com/watch?v=hRdPMSi_7ZY"
@@ -276,11 +275,10 @@ export default function Projects() {
                 href="https://moviey.netlify.app"
                 target="_blank"
                 rel="noreferrer"
-                className="text-[#b67ef2] font-bold flex items-center text-sm border-b border-[#b67ef2]"
+                className="text-[#b67ef2] font-bold flex items-center text-xl"
 
               >
-                Link{" "}
-                <img src={NorthEastArrow} alt="arrow icon" className="w-7" />
+                {" "}<i className="fa-solid fa-link w-7"></i>
               </a>
               <a
                 href="https://www.youtube.com/watch?v=hRdPMSi_7ZY"

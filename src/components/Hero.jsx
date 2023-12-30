@@ -27,7 +27,7 @@ export default function Hero() {
         </div>
 
         <Link to="footer" smooth={true} duration={600}>
-          <button className="w-full rounded-full bg-[#06c] py-2 lg:w-40 hover:bg-black hover:border hover:border-[#06c] transition-all duration-300">
+          <button className="w-full rounded-full bg-[#06c] py-2 lg:w-40 hover:bg-black hover: hover:border-[#06c] transition-all duration-300 ">
             Let&apos;s Connect➡️
           </button>
         </Link>
