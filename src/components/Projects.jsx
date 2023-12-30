@@ -390,17 +390,12 @@ export default function Projects() {
         </main> */}
 
         <a
-          href="https://github.com/shagunZ"
+          href="https://github.com/shagunZ?tab=repositories"
           target="_blank"
           rel="noreferrer"
-          className="flex items-center justify-center text-sm tracking-widest border border-neutral-500 rounded-full py-2 bg-neutral-900"
+          className="flex items-center justify-center text-sm tracking-widest rounded-full py-3 bg-neutral-900"
         >
-          View on Github{" "}
-          <img
-            src={NorthEastArrow}
-            alt="north east arrow icon"
-            className="w-7"
-          />
+          View More{" "}
         </a>
       </div>
     </>
