@@ -26,32 +26,33 @@ export default function Footer() {
             <img
               src={linkedin}
               alt="email icon"
-              className="w-8 lg:w-10 hover:brightness-200 transition-all duration-300"
+              className="w-8 lg:w-10 brightness-200 hover:brightness-100 transition-all duration-300"
             />
           </a>{" "}
           <a href="https://www.github.com/shagunZ" target="_blank" rel="noreferrer">
             <img
               src={github}
               alt="github icon"
-              className="w-6 lg:w-10 hover:brightness-200 transition-all duration-300 invert opacity-60"
+              className="w-6 lg:w-10 hover:opacity-60 transition-all duration-300 invert opacity-100"
+              style={{width:"23px",padding:"2px"}}
             />
           </a>{" "}
           <a href="mailto:shagunmengi003@gmail.com" target="_blank" rel="noreferrer">
             <img
               src={email}
               alt="email icon"
-              className="w-8 lg:w-10 hover:brightness-200 transition-all duration-300"
+              className="w-8 lg:w-10 brightness-200 hover:brightness-100 transition-all duration-300"
             />
           </a>{" "}
           <a
-            href="https://www.twitter.com/shagunmengi"
+            href="https://www.twitter.com/"
             target="_blank"
             rel="noreferrer"
           >
             <img
               src={twitter}
               alt="email icon"
-              className="w-8 lg:w-10 hover:brightness-200 transition-all duration-300"
+              className="w-8 lg:w-10 brightness-200 hover:brightness-100 transition-all duration-300"
             />
           </a>{" "}
         </div>

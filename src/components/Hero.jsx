@@ -10,7 +10,7 @@ export default function Hero() {
         </h2>
 
         <p className="text-neutral-400 font-thin lg:text-lg tracking-tighter">
-        I am a passionate  <span className="text-neutral-50">computer science student </span> 
+        Hey, I am <span className="text-neutral-50">Shagun Mengi</span>, a passionate  <span className="text-neutral-50">computer science student </span> 
          with a strong interest in  <span className="text-neutral-50">development</span> and  <span className="text-neutral-50">problem solving.</span> {" "}
         Constantly seeking out new  <span className="text-neutral-50">opportunities</span> to grow my skillset, whether it is through  <span className="text-neutral-50">personal projects</span> or working with a  <span className="text-neutral-50">team on a complex development project.</span>
         </p>
@@ -28,7 +28,7 @@ export default function Hero() {
 
         <Link to="footer" smooth={true} duration={600}>
           <button className="w-full rounded-full bg-[#06c] py-2 lg:w-40 hover:bg-black hover:border hover:border-[#06c] transition-all duration-300">
-            Get in touch➡️
+            Let&apos;s Connect➡️
           </button>
         </Link>
       </div>
