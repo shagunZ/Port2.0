@@ -11,9 +11,10 @@ export default function Stack() {
   return (
     <>
       <main className="px-6 mb-20">
-        <h3 className="uppercase tracking-widest font-semibold text-[0.9rem] mb-8 lg:text-xl">
-          My Tech Stack
-        </h3>
+        <h2 className="uppercase text-3xl font-bold leading-10 tracking-tight
+         ">
+          My Tech Stack...
+        </h2>
 
         <div className="grid grid-cols-1 gap-4 md:grid-cols-6 sm:grid-cols-3 ">
           <div className="flex flex-col items-center justify-center rounded-lg pb-4">

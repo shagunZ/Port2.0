@@ -1,5 +1,3 @@
-import SkyCast from "../assets/img/skycast_screenshot.webp";
-import Cineflix from "../assets/img/cineflix_screenshot.webp";
 import NorthEastArrow from "../assets/icons/arrow-up-right.svg";
 import Youtube from "../assets/img/youtube.png";
 import Github from "../assets/img/github_icon.svg"
@@ -15,9 +13,11 @@ export default function Projects() {
   return (
     <>
       <div className="px-6 flex flex-col gap-12 mb-20">
-        <h3 className="uppercase tracking-widest font-semibold text-[0.9rem] lg:text-xl">
-          My Projects
-        </h3>
+       
+        <h2 className="uppercase text-3xl font-bold leading-10 tracking-tight
+         ">
+          My Projects...</h2>
+        
 
         <main className="px-2 flex flex-col gap-14 md:flex-row lg:flex-row">
           <div className="flex flex-col gap-2 lg:w-1/3">
@@ -33,8 +33,8 @@ export default function Projects() {
               />
             </div>
 
-            <h4>Synopsis</h4>
-            <p className="text-neutral-400 text-sm mb-2">
+            <h4 className="text-xl font-sans">Synopsis</h4>
+            <p className="text-neutral-400 text-md mb-2">
             SynopsisAI streamline your reading experience and can transform lengthy articles into concise and easily readable summaries. The generated summaries are designed to be clear, concise, and highly readable texts and are facilitated by connecting to relevant APIs that processes the summarization. 
             </p>
 
@@ -77,8 +77,8 @@ export default function Projects() {
               />
             </div>
 
-            <h4>YelpCamp</h4>
-            <p className="text-neutral-400 text-sm mb-2">
+            <h4 className="text-xl font-sans">YelpCamp</h4>
+            <p className="text-neutral-400 text-md mb-2">
             YelpCamp is a Full Stack app for a campground sharing and reviewing platform. Users can create an account, log in, and perform various actions within the application, such as creating , adding comments and reviews , editing or deleting , and browsing through different campground listings.
             </p>
 
@@ -120,8 +120,8 @@ export default function Projects() {
               />
             </div>
 
-            <h4>Scroll Gate</h4>
-            <p className="text-neutral-400 text-sm mb-2">
+            <h4 className="text-xl font-sans">Scroll Gate</h4>
+            <p className="text-neutral-400 text-md mb-2">
             Scroll Gate combines the concept of infinite scrolling, external API integration, React development, and Firebase Authentication to create a dynamic and engaging application that keeps users immersed in a continuous stream of content while maintaining secure user authentication. 
             </p>
 
@@ -169,8 +169,8 @@ export default function Projects() {
               />
             </div>
 
-            <h4>Blogify</h4>
-            <p className="text-neutral-400 text-sm mb-2">
+            <h4 className="text-xl font-sans">Blogify</h4>
+            <p className="text-neutral-400 text-md mb-2">
             A MERN stack app that provides authentication for secure access and includes features like liking and viewing personal and all blogs. With a user-friendly interface and rich text editing capabilities, Blogify makes blogging a seamless experience for users of all levels. 
             </p>
 
@@ -213,8 +213,8 @@ export default function Projects() {
               />
             </div>
 
-            <h4>Manager</h4>
-            <p className="text-neutral-400 text-sm mb-2">
+            <h4 className="text-xl font-sans">Manager</h4>
+            <p className="text-neutral-400 text-md mb-2">
             Manager is a MERN stack application that excels in providing efficient Create, Read, Update, and Delete (CRUD) operations. It is a no-login task recording app utilizing various features of React, such as Event Listeners, State Management, Conditional Rendering, React Hooks, seamless user experience without experiencing page reloads. 
             </p>
 
@@ -257,8 +257,8 @@ export default function Projects() {
               />
             </div>
 
-            <h4>MovieApp</h4>
-            <p className="text-neutral-400 text-sm mb-2">
+            <h4 className="text-xl font-sans">MovieApp</h4>
+            <p className="text-neutral-400 text-md mb-2">
             The MovieApp is built with React, leveraging APIs to provide users with an extensive collection of movies and comprehensive search options. The app dynamically retrieves movie data, including titles,ratings, posters, and more, ensuring an up-to-date and diverse selection for users to explore.
             </p>
 
@@ -308,8 +308,8 @@ export default function Projects() {
               />
             </div>
 
-            <h4>Friendly Chat</h4>
-            <p className="text-neutral-400 text-sm mb-2">
+            <h4 className="text-xl font-sans">Friendly Chat</h4>
+            <p className="text-neutral-400 text-md mb-2">
             This is a chat application built using Firebase. It allows users to communicate with each other in real-time using Firebases real-time database and authentication features. The chat application utilizes Firebases real-time database, enabling instant message delivery between users.
             </p>
 
@@ -352,8 +352,8 @@ export default function Projects() {
               />
             </div>
 
-            <h4>BookCart</h4>
-            <p className="text-neutral-400 text-sm mb-2">
+            <h4 className="text-xl font-sans">BookCart</h4>
+            <p className="text-neutral-400 text-md mb-2">
             Book Cart app offers users a convenient way to manage their book purchases by adding and deleting books. The app includes a feature that calculates the bill based on the books added to the cart. Each time a book is added or deleted, the app recalculates the total bill, taking into account the prices of the books in the cart.
             </p>
 

@@ -9,10 +9,11 @@ export default function Footer() {
         className=" px-6 pt-8 pb-6 flex flex-col gap-4 lg:rounded-lg lg:mb-8"
         id="footer"
       >
-        <h3 className="uppercase tracking-widest font-semibold text-[0.9rem] lg:text-xl">
-          Contanct Me
-        </h3>
-        <p className="text-neutral-400 lg:pr-60">
+       <h2 className="uppercase text-3xl font-bold leading-10 tracking-tight
+         ">
+          Contanct Me...
+        </h2>
+        <p className="text-neutral-400 lg:pr-60 text-lg">
         Feel free to contact me to chat about a project, collaboration, or just a discussion, I&apos;d love to hear from you! <br></br>Let&apos;s get connected and learn together! 🌟
         </p>
 

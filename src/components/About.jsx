@@ -3,7 +3,8 @@ import React from 'react'
 export const About = () => {
   return (
     <div  className="px-6 flex flex-col gap-12 mb-20">
-         <h2 className="uppercase tracking-widest font-bold text-3xl lg:text-xl">
+         <h2 className="uppercase text-3xl font-bold leading-10 tracking-tight
+         ">
           About Me...
         </h2>
         <main className="px-2 flex flex-col gap-14 lg:flex-row">

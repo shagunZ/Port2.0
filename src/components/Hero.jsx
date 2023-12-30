@@ -4,9 +4,13 @@ export default function Hero() {
   return (
     <>
       <div className="px-6 mt-20 mb-20 flex flex-col gap-4 lg:gap-8 lg:pr-44 lg:my-24">
-        <h2 className="text-5xl lg:font-extrabold leading-10 lg:text-8xl tracking-tight flex">
+        <h2 className="text-5xl font-extrabold leading-10 lg:text-8xl tracking-tight flex">
           {/* Hey, I&apos;m Shagun Mengi &mdash; <br></br>  */}
-          Crafting Web Experiences
+          Crafting Web
+        </h2>
+        <h2 className="text-5xl font-extrabold leading-10 lg:text-7xl tracking-tight flex">
+          {/* Hey, I&apos;m Shagun Mengi &mdash; <br></br>  */}
+          Experiences
         </h2>
 
         <p className="text-neutral-400 font-thin lg:text-lg tracking-tighter">
@@ -20,7 +24,7 @@ export default function Hero() {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-[#06c]"></span>
           </span>
-          <p className="text-neutral-400 text-base">
+          <p className="text-neutral-400 text-lg">
             {/* Actively looking for new opportunities */}
             Let&apos;s connect and learn together! 
           </p>
