@@ -37,6 +37,11 @@ export default function Footer() {
               style={{width:"23px",padding:"2px"}}
             />
           </a>{" "}
+          
+          <a href="https://www.instagram.com/s_mengi14" target="_blank" rel="noreferrer" className="brightness-200 hover:brightness-100 transition-all duration-300 text-center">
+          <i className="fa-brands fa-instagram  w-8 lg:w-10" style={{width:"30px",padding:"2px"}}></i>
+          </a>{" "}
+          
           <a href="mailto:shagunmengi003@gmail.com" target="_blank" rel="noreferrer">
             <img
               src={email}

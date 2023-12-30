@@ -43,10 +43,35 @@ export default function Stack() {
           </div>
           <div className="flex flex-col items-center justify-center rounded-lg pb-4">
             <img
-              src={Mongo}
+             src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg"
               alt="javascript icon"
               className="w-19 my-6 rounded-lg h-14"
               />
+          </div>
+
+          <div className=" flex flex-col items-center justify-center rounded-lg pb-4">
+            <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWwqIxeXaSEO9byVSTrXX7tSJ1GkDxP9HE2Q&usqp=CAU" 
+              alt="figma icon"
+              className="w-16 my-6 rounded-lg h-14"
+              />
+          </div>
+
+          
+          <div className="flex flex-col items-center justify-center rounded-lg pb-4">
+          <i className="fa-brands fa-bootstrap faicons text-6xl" style={{color: "#6e55ec"}}></i>
+          </div>
+
+          <div className=" flex flex-col items-center justify-center rounded-lg pb-4">
+            <img
+             src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" 
+              alt="figma icon"
+              className="w-16 my-6 rounded-lg h-14"
+              />
+          </div>
+
+          <div className="flex flex-col items-center justify-center rounded-lg pb-4">
+          <i className="fa-brands fa-git faicons text-6xl" style={{color: "#d41111"}}></i>
           </div>
 
           <div className="flex flex-col items-center justify-center rounded-lg pb-4">
@@ -73,13 +98,40 @@ export default function Stack() {
               />
           </div>
 
-          <div className="flex flex-col items-center justify-center rounded-lg pb-4">
+          {/* <div className="flex flex-col items-center justify-center rounded-lg pb-4">
             <img
               // src={Photoshop}
               alt="adobe photoshop icon"
               className="w-16 my-6 rounded-lg h-14"
             />
+          </div> */}
+
+
+
+          <div className="flex flex-col items-center justify-center rounded-lg pb-4">
+          <i className="fa-brands fa-html5 faicons text-6xl" style={{color: "#e67f1e"}}></i>
           </div>
+
+          <div className="flex flex-col items-center justify-center rounded-lg pb-4">
+          <i className="fa-brands fa-css3 faicons text-6xl" style={{color: "#1f71ff"}}></i>
+          </div>
+
+          <div className=" flex flex-col items-center justify-center rounded-lg pb-4">
+            <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCvNkLk_-Arz2vB_zcAv7pTG3SmvKDNmXaOw&usqp=CAU" 
+              alt="figma icon"
+              className="w-16 my-6 rounded-lg h-14"
+              />
+          </div>
+
+          <div className="flex flex-col items-center justify-center rounded-lg pb-4">
+          <i className="fa-brands fa-c faicons text-6xl" style={{color: "#4284f5"}}></i>
+          </div>
+
+          <div className="flex flex-col items-center justify-center rounded-lg pb-4">
+          <i className="fa-brands fa-java faicons text-6xl" style={{color: "red"}}></i>
+          </div>
+
         </div>
       </main>
     </>
