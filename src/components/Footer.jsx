@@ -13,7 +13,7 @@ export default function Footer() {
          ">
           Contanct Me...
         </h2>
-        <p className="text-neutral-400 lg:pr-60 text-lg">
+        <p className="text-slate-300 lg:pr-60 text-lg">
         Feel free to contact me to chat about a project, collaboration, or just a discussion, I&apos;d love to hear from you! <br></br>Let&apos;s get connected and learn together! 🌟
         </p>
 
@@ -64,7 +64,7 @@ export default function Footer() {
         </div>
 
         <div className="flex justify-center">
-          <p className="text-center text-sm text-neutral-400 tracking-widest pt-2">
+          <p className="text-center text-sm text-slate-300 tracking-widest pt-2">
           &copy;2023 - shagunZ 
           </p>
         </div>

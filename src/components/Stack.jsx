@@ -6,6 +6,7 @@ import Photoshop from "../assets/img/photoshop_icon.svg";
 import Figma from "../assets/img/figma_icon.svg";
 import Node from "../assets/img/node.png"
 import Express from "../assets/img/express.png";
+import vercel from "../assets/img/vercel.png";
 import Mongo from "../assets/img/mongo.png";
 export default function Stack() {
   return (
@@ -17,6 +18,14 @@ export default function Stack() {
         </h2>
 
         <div className="grid grid-cols-1 gap-4 md:grid-cols-6 sm:grid-cols-3 ">
+
+        <div className=" flex flex-col items-center justify-center rounded-lg pb-4">
+            <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWwqIxeXaSEO9byVSTrXX7tSJ1GkDxP9HE2Q&usqp=CAU" 
+              alt="figma icon"
+              className="w-16 my-6 rounded-lg h-14"
+              />
+          </div>
           <div className="flex flex-col items-center justify-center rounded-lg pb-4">
             <img src={React} alt="react icon" className="w-16 my-6 h-14" />
           </div>
@@ -50,13 +59,6 @@ export default function Stack() {
               />
           </div>
 
-          <div className=" flex flex-col items-center justify-center rounded-lg pb-4">
-            <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWwqIxeXaSEO9byVSTrXX7tSJ1GkDxP9HE2Q&usqp=CAU" 
-              alt="figma icon"
-              className="w-16 my-6 rounded-lg h-14"
-              />
-          </div>
 
           
           <div className="flex flex-col items-center justify-center rounded-lg pb-4">
@@ -94,6 +96,13 @@ export default function Stack() {
           <div className=" flex flex-col items-center justify-center rounded-lg pb-4">
             <img
               src={Figma}
+              alt="figma icon"
+              className="w-16 my-6 rounded-lg h-14"
+              />
+          </div>
+          <div className=" flex flex-col items-center justify-center rounded-lg pb-4">
+            <img
+              src={vercel}
               alt="figma icon"
               className="w-16 my-6 rounded-lg h-14"
               />

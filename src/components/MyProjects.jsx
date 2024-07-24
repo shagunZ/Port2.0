@@ -26,14 +26,14 @@ export default function MyProjects() {
                   />
                 </div>
 
-                <h3>{i.title}</h3>
-                <p className="text-neutral-400 text-sm mb-2">{i.description}</p>
+                <h3 className='text-center justify-center align-middle'>{i.title}</h3>
+                <p className="text-slate-300 text-lg mb-2">{i.description}</p>
                 <div className="flex gap-6 items-center">
                   <a
                     href={i.link}
                     target="_blank"
                     rel="noreferrer"
-                    className="text-neutral-400 text-sm rounded-lg px-4 py-1 "
+                    className="text-slate-300 text-sm rounded-lg px-4 py-1 "
                   >
                     <img src={Github} alt="arrow icon" className="w-7 " />
                   </a>

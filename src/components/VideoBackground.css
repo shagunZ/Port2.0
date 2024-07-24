@@ -6,7 +6,7 @@
     height: 1000%;
     object-fit: cover;
     z-index: -1;
-    filter: brightness(60%);
+    filter: brightness(55%);
   }
   
   video {

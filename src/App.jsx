@@ -9,8 +9,8 @@ import { About } from "./components/About";
 function App() {
   return (
     <>
-      <div className="mx-auto">
         <Header />
+      <div className="mx-auto container">
 <VideoBackground/>
         <Hero />
 <About/>
